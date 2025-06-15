@@ -1,0 +1,21 @@
+{
+    "name": "cryptoapi-sentinel",
+    "version": "0.1.0",
+    "description": "Unified Proxy & Security Test Harness for Crypto Data APIs",
+    "main": "src/proxy/index.js",
+    "scripts": {
+      "start": "node src/proxy/index.js",
+      "security:test": "node src/cli/runTests.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "axios": "^1.3.0",
+      "redis": "^4.6.5",
+      "dotenv": "^16.0.3"
+    },
+    "devDependencies": {
+      "mocha": "^10.2.0",
+      "chai": "^4.3.7"
+    }
+  }
+  
